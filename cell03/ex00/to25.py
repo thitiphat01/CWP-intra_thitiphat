@@ -5,5 +5,5 @@ num = int(input())
 if num > 25:
     print("Error")
 else:
-    for i in range(num, 25, 1):
+    for i in range(num,26, 1):
         print("Inside the loop, my variable is", i)
